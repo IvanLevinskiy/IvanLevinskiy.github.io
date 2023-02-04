@@ -5,9 +5,10 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		 <!-- Bootstrap CSS (Cloudflare CDN) -->
-		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		 
+		 <!-- Bootstrap CSS (Cloudflare CDN) 
+		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+		 <link href="./wwwroot/css/bootstrap.min.css" rel="stylesheet">
+
 		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 		 <link rel="stylesheet" href=" https://getbootstrap.com/docs/4.4/getting-started/theming/#sass-options">
@@ -19,9 +20,11 @@
 		 <!-- Bootstrap Bundle JS (Cloudflare CDN) -->
 		 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		
+		 <script type="text/javascript" src="./wwwroot/js/google-form.js"></script>
 		
 		<!-- jQuery (Cloudflare CDN) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
 		<script type="text/javascript">
 			function slowScroll(selector) 
 			{ 
@@ -180,22 +183,38 @@
 					</div>
 				</div>	
 
-				<div id="contacts-form"  style="display:none">
+				<!--<div id="contacts-form">
 					<div class="conteiner p-3">
 						<h4>ОСТАВЬТЕ ЗАЯВКУ</h4>
-						<form id="form_input">
+						<form id="form_input" method="post"
+							  action="https://docs.google.com/forms/d/1gci224y12YpOnxudXm_wUIM1da474gI6pE9AborYAew"
+      						  onsubmit="return window.submitGoogleForm(this);">
+
 							<input type="text" placeholder="Ваш телефон" id="phone" name="phone"/>
 	
 							<input type="email" placeholder="Ваша почта" id="email" name="email"/>
 	
 							<textarea type="message" placeholder="Тема обращения" id="message" name="message"></textarea>
 							<br/>
-							<div id="mess_send" class="btn btn-primary">Оставить заявку</div>
+
+							<button class="btn btn-primary" type=submit>Оставить заявку</button>
 							<br/>
 						</form>
 					</div>
+
+					<form method="POST"
+      					  action="https://docs.google.com/forms/d/1L2RkSEEyfybnCpDaAMcVqu8d_83eVlCDL8gTTfeQkkw"
+							
+      					  onsubmit="return window.submitGoogleForm(this);">
+
+						<label>name</label>
+						
+						<input name="entry.2345234">
+
+						<button type=submit>Submit</button>
+					</form>
 					
-				</div>
+				</div>-->
 			
 				<footer id="footer" class="blog-footer bg-dark" style="height: 90px;">
 					<div class="row">
@@ -205,13 +224,13 @@
 							<h4 href="#"><i class="bi bi-house-door"></i>г. Челябинск</h4>
 						  </div>
 						 
-						  <div class="col-lg-4 col-md-6 col-sm-6 text-center links-div">
+						  <!--<div class="col-lg-4 col-md-5 col-sm-5 text-center links-div">
 							<a class="bi bi-envelope text-white m-2"></a>
 							<a class="bi bi-envelope-at text-white m-2"></a>
 							<a class="bi bi-envelope-at text-white m-2"></a>
 							<a class="bi bi-github text-white m-2"></a>
 							<a class="bi bi-send text-white m-2"></a>
-							<a class="bi bi-whatsapp text-white m-2"></a>						
+							<a class="bi bi-whatsapp text-white m-2"></a>	-->					
 						</div>	
 					</div>	
 				</footer>	
