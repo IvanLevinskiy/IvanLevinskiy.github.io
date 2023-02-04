@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		 <!-- Bootstrap CSS (Cloudflare CDN) -->
+		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		 
+		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+		 <link rel="stylesheet" href=" https://getbootstrap.com/docs/4.4/getting-started/theming/#sass-options">
+
+		 <link rel="stylesheet" href="wwwroot/css/main.css"/>
+
+		 
+		 
+		 <!-- Bootstrap Bundle JS (Cloudflare CDN) -->
+		 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		
+		<!-- jQuery (Cloudflare CDN) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			function slowScroll(selector) 
+			{ 
+				// сколько отступить верхней частью экрана от объекта
+				var offset = 50; 
+				$('html, body').animate(
+				{ 
+					scrollTop: $(selector).offset().top - offset
+				}, 500);
+				return false; 
+			}
+		</script>
+
+		<title>Промышленная автоматизация</title>
+		
+	</head>
+	<body id="body">
+
+		<div class="container bg-light">
+
+				<!--ЗАГОЛОВОК-->
+				<div class="container p-4 p-md-5 mb-0 text-white rounded  mybg">
+
+					<div class="row">
+	
+						<div class="col-10 px-0 second text-lingh">
+						  <h1>АВТОМАТИЗАЦИЯ ТЕХНОЛОГИЧЕСКИХ <br/>ПРОЦЕССОВ НА ПРОМЫШЛЕННЫХ <br/>
+							ПРЕДПРИЯТИЯХ</h1>
+						</div>
+
+						<div class="float-right" style="display:none">
+							<a href="#" class="btn btn-primary" style="float: right; display: block; width: 200px;" onclick="slowScroll('#contacts-form')">Заказать</a>
+						</div>
+						
+					</div>
+
+				</div>
+	
+				<!--УСЛУГИ-->
+				<div class="services p-3">
+					<h4>НАШИ УСЛУГИ:</h4>
+					<div class="row">
+						
+						<div class="col-lg-3 col-md-6 col-sm-12  p-1" >
+							<div class="card" style="background-image: url('./wwwroot/img/eplan.png');">
+								<h3 href="www.yandex.ru" class="text-white  text-center">Проектирование<br/>АСУТП</h3>
+							</div>
+						  </div>
+		
+						  <div class="col-lg-3 col-md-6 col-sm-12  p-1" >
+							<div class="card" style="background-image: url('./wwwroot/img/ecab.png');">
+								<h3 class="text-white  text-center">Сборка шкафов автоматики</h3>
+							</div>
+						  </div>
+
+						  <div class="col-lg-3 col-md-6 col-sm-12  p-1" >
+							<div class="card"  style="background-image: url('./wwwroot/img/tiacard.png');">
+								<h3 class="text-white text-center">Программирование<br/>ПЛК</h3>
+							</div>
+						  </div>
+		
+						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
+							<div class="card" style="background-image: url('./wwwroot/img/hmi.png');">
+							  <h3 class="text-white text-center">Разработка систем визуализации</h3>
+							</div>
+						  </div>
+							
+						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
+							<div class="card" style="background-image: url('./wwwroot/img/modern.png');">
+							  <h3 class="text-white text-center">Модернизация систем управления</h3>
+							</div>
+						  </div>
+		
+						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
+							<div class="card" style="background-image: url('./wwwroot/img/iba.png');">
+							  <h3 class="text-white text-center">Разработка систем сбора данных</h3>
+							</div>
+						  </div>
+		
+						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
+							<div class="card" style="background-image: url('./wwwroot/img/hmi2.png');">
+							  <h3 class="text-white text-center">Разработка систем диспетчерезации</h3>
+							</div>
+						  </div>
+									
+						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
+							<div class="card" style="background-image: url('./wwwroot/img/service.png');">
+							  <h3 class="text-white text-center">Ремонт и сервисное обслуживание АСУТП</h3>
+							</div>
+						  </div>
+							
+					</div>
+				</div>
+		
+				<!--ПРИМЕР ВЫПОЛНЕНЫХ РАБОТ-->
+				<div class="examples-div p-3 bd-gray-100">
+					<h4>ПРИМЕР ВЫПОЛНЕНЫХ РАБОТ:</h4>
+	  
+					<div class="row p-0">
+	  
+						<div class="col-lg-6 col-md-12 col-sm-12 pr-1">
+							<div class="st-card">
+							
+								<div class="card-title"> 
+									<h5 class="lead text-center text-dark"><b>HMI для рентгенологического аппарата</b></h5>
+									<a>Система АСУТП осуществляет управление рентгенологическим аппаратом в металлургической промышленности.
+										В качестве ПЛК используется Simatic S7-1500. Обмен данными между ПЛК и HMI осуществляется по Modbus TCP.
+									</a>
+								</div>
+								
+								<img class="img_exemp" src="./wwwroot/img/ws0.png"/>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12 col-sm-12 pl-1">
+							<div class="st-card">
+							
+								<div class="card-title">
+									<h5 class="lead text-center text-dark"><b>ПО для сбора данных</b></h5>
+									<a> Программное обеспечение осуществляет опрос устройств по протоколам Simatic TCP и Modbus TCP.
+										Значения процесса архивируются в базу данных. Опция: предоставление доступа к значениям процесса по технологии OPC UA.
+									</a>
+								</div>
+
+								<img class="img_exemp"  src="./wwwroot/img/logging_ui.png"/>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12 col-sm-12 pl-1">
+							<div class="st-card">
+							
+								<div class="card-title">
+									<h5 class="lead text-center text-dark">Автоматизация линии сортировки</h5>
+
+									<a> Система АСУТП осуществляет управление промышленной установкой - линией сортировки. В качестве ПЛК - S7-1200, программное обеспечение HMI написано на 
+										.NET (WPF). Взаимодействие между ПЛК и HMI осуществляется по протоколу Simatic TCP.
+									</a>
+								</div>
+								
+								
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-12 col-sm-12 pl-1">
+							<div class="st-card">
+							
+								<div class="card-title">
+									<h5 class="lead text-center text-dark">Автоматизация чугуновоза</h5>
+									<a> Система АСУТП управляет чугуновозом. ПЛК - S7-1200, программное обеспечение HMI написано на 
+										.NET (WPF) 
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>	
+
+				<div id="contacts-form"  style="display:none">
+					<div class="conteiner p-3">
+						<h4>ОСТАВЬТЕ ЗАЯВКУ</h4>
+						<form id="form_input">
+							<input type="text" placeholder="Ваш телефон" id="phone" name="phone"/>
+	
+							<input type="email" placeholder="Ваша почта" id="email" name="email"/>
+	
+							<textarea type="message" placeholder="Тема обращения" id="message" name="message"></textarea>
+							<br/>
+							<div id="mess_send" class="btn btn-primary">Оставить заявку</div>
+							<br/>
+						</form>
+					</div>
+					
+				</div>
+			
+				<footer id="footer" class="blog-footer bg-dark" style="height: 90px;">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-sm-6 contact-info">
+							<h4 href="#"><i class="bi bi-telephone"></i>+7 (908) 570-90-56</h4>
+							<h4 href="#"><i class="bi bi-envelope"></i>info@indast74.ru</h4>
+							<h4 href="#"><i class="bi bi-house-door"></i>г. Челябинск</h4>
+						  </div>
+						 
+						  <div class="col-lg-4 col-md-6 col-sm-6 text-center links-div">
+							<a class="bi bi-envelope text-white m-2"></a>
+							<a class="bi bi-envelope-at text-white m-2"></a>
+							<a class="bi bi-envelope-at text-white m-2"></a>
+							<a class="bi bi-github text-white m-2"></a>
+							<a class="bi bi-send text-white m-2"></a>
+							<a class="bi bi-whatsapp text-white m-2"></a>						
+						</div>	
+					</div>	
+				</footer>	
+			 </div>
+		</div>
+
+	</body>
+</html>	
