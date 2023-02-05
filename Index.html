@@ -65,124 +65,212 @@
 	
 				<!--УСЛУГИ-->
 				<div class="services p-3">
-					<h4>НАШИ УСЛУГИ:</h4>
+					<h4 class="block_title">Наши услуги:</h4>
 					<div class="row">
 						
 						<div class="col-lg-3 col-md-6 col-sm-12  p-1" >
 							<div class="card" style="background-image: url('./wwwroot/img/eplan.png');">
-								<h3 href="www.yandex.ru" class="text-white  text-center">Проектирование<br/>АСУТП</h3>
+								<a href="#" class="service_scard-text" onclick="slowScroll('#design')">Проектирование<br/>АСУТП</a>
 							</div>
 						  </div>
 		
 						  <div class="col-lg-3 col-md-6 col-sm-12  p-1" >
 							<div class="card" style="background-image: url('./wwwroot/img/ecab.png');">
-								<h3 class="text-white  text-center">Сборка шкафов автоматики</h3>
+								<a href="#" class="service_scard-text" onclick="slowScroll('#AssemblyECabs')">Сборка шкафов автоматики</a>
 							</div>
 						  </div>
 
 						  <div class="col-lg-3 col-md-6 col-sm-12  p-1" >
 							<div class="card"  style="background-image: url('./wwwroot/img/tiacard.png');">
-								<h3 class="text-white text-center">Программирование<br/>ПЛК</h3>
+								<a href="#" class="service_scard-text">Программирование<br/>ПЛК</a>
 							</div>
 						  </div>
 		
 						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
 							<div class="card" style="background-image: url('./wwwroot/img/hmi.png');">
-							  <h3 class="text-white text-center">Разработка систем визуализации</h3>
+								<a href="#" class="service_scard-text">Разработка систем визуализации</a>
 							</div>
 						  </div>
 							
 						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
 							<div class="card" style="background-image: url('./wwwroot/img/modern.png');">
-							  <h3 class="text-white text-center">Модернизация систем управления</h3>
+								<a href="#" class="service_scard-text" onclick="slowScroll('#modernDiv')">Модернизация систем управления</a>
 							</div>
 						  </div>
 		
 						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
 							<div class="card" style="background-image: url('./wwwroot/img/iba.png');">
-							  <h3 class="text-white text-center">Разработка систем сбора данных</h3>
+								<a href="#" class="service_scard-text" onclick="slowScroll('#daqDiv')">Разработка систем сбора данных</a>
 							</div>
 						  </div>
 		
 						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
 							<div class="card" style="background-image: url('./wwwroot/img/hmi2.png');">
-							  <h3 class="text-white text-center">Разработка систем диспетчерезации</h3>
+								<a href="#" class="service_scard-text" onclick="slowScroll('#dsp')">Разработка систем диспетчерезации, АСТУЭ, АСКУЭ</a>
 							</div>
 						  </div>
 									
 						  <div class="col-lg-3 col-md-6 col-sm-12 p-1">
 							<div class="card" style="background-image: url('./wwwroot/img/service.png');">
-							  <h3 class="text-white text-center">Ремонт и сервисное обслуживание АСУТП</h3>
+								<a href="#" class="service_scard-text" onclick="slowScroll('#service')">Ремонт и сервисное обслуживание АСУТП, электроники и ЧПУ</a>
 							</div>
 						  </div>
 							
 					</div>
 				</div>
-		
-				<!--ПРИМЕР ВЫПОЛНЕНЫХ РАБОТ-->
-				<div class="examples-div p-3 bd-gray-100">
-					<h4>ПРИМЕР ВЫПОЛНЕНЫХ РАБОТ:</h4>
+
+				<!--ПРОЕКТИРОВАНИЕ АСУТП-->
+				<div class="examples-div p-3 bd-gray-100" id="design">
+					<h4 class="block_title">Проектирование АСУТП</h4>
 	  
 					<div class="row p-0">
 	  
-						<div class="col-lg-6 col-md-12 col-sm-12 pr-1">
-							<div class="st-card">
-							
-								<div class="card-title"> 
-									<h5 class="lead text-center text-dark"><b>HMI для рентгенологического аппарата</b></h5>
-									<a>Система АСУТП осуществляет управление рентгенологическим аппаратом в металлургической промышленности.
-										В качестве ПЛК используется Simatic S7-1500. Обмен данными между ПЛК и HMI осуществляется по Modbus TCP.
-									</a>
-								</div>
-								
-								<img class="img_exemp" src="./wwwroot/img/ws0.png"/>
-							</div>
+						<div class="col-12">
+							<p>
+								Мы осуществляем разработку технической документациии на создание АСУ ТП в соответсвии с общепринятым
+								теребованиями ГОСТ, СНиП, ПУЭ, а так же локальными требованиями заказчика.
+							</p>
 						</div>
-
-						<div class="col-lg-6 col-md-12 col-sm-12 pl-1">
-							<div class="st-card">
-							
-								<div class="card-title">
-									<h5 class="lead text-center text-dark"><b>ПО для сбора данных</b></h5>
-									<a> Программное обеспечение осуществляет опрос устройств по протоколам Simatic TCP и Modbus TCP.
-										Значения процесса архивируются в базу данных. Опция: предоставление доступа к значениям процесса по технологии OPC UA.
-									</a>
-								</div>
-
-								<img class="img_exemp"  src="./wwwroot/img/logging_ui.png"/>
-							</div>
-						</div>
-
-						<div class="col-lg-6 col-md-12 col-sm-12 pl-1">
-							<div class="st-card">
-							
-								<div class="card-title">
-									<h5 class="lead text-center text-dark">Автоматизация линии сортировки</h5>
-
-									<a> Система АСУТП осуществляет управление промышленной установкой - линией сортировки. В качестве ПЛК - S7-1200, программное обеспечение HMI написано на 
-										.NET (WPF). Взаимодействие между ПЛК и HMI осуществляется по протоколу Simatic TCP.
-									</a>
-								</div>
-								
-								
-							</div>
-						</div>
-
-						<!--<div class="col-lg-6 col-md-12 col-sm-12 pl-1" style="display:none"></div>>
-							<div class="st-card">
-							
-								<div class="card-title">
-									<h5 class="lead text-center text-dark">Автоматизация чугуновоза</h5>
-									<a> Система АСУТП управляет чугуновозом. ПЛК - S7-1200, программное обеспечение HMI написано на 
-										.NET (WPF) 
-									</a>
-								</div>
-							</div>
-						</div>-->
-
 					</div>
-				</div>	
+				</div>
 
+				<!--СБОРКА ШКАФОВ АВТОМАТИЗАЦИИ-->
+				<div class="examples-div p-3 bd-gray-100" id="AssemblyECabs">
+					<h4 class="block_title">Сборка шкафов автоматики</h4>
+	  
+					<div class="row p-0">
+	  
+						<div class="col-12">
+							<p>
+								Мы осуществляем сборку шкафов автоматики в соответсвии с требованиями проекта на собственной производственной площадке.
+								Для сборки шкафа у нас имеется всё необходимое оборудование и инструменты.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!--ПРОГРАММИРОВАНИЕ ПЛК-->
+				<div class="examples-div p-3 bd-gray-100">
+					<h4 class="block_title"><b>Программирование ПЛК</b></h4>
+	  
+					<div class="row p-0">
+	  
+						<div class="col-12">
+							<p>
+								Наши специалисты имеют богатый опыт в написании программного обеспечения для 
+								программируемых логических контроллеров ведущих мировых брендов, таких как: Siemens, Овен, Delta
+								Schneider Electric и прочих. Разработаное нами программное обеспечение имеет понятный стиль 
+								и пригодно для поддержки специалистами эксплуатирующей организации.
+							</p>
+							<p>
+								На основе ПЛК могут мы можем построить различные системы, позволяющие выполнять прикладные задачи,
+								управлять позиционированием, регулированием, защитой и прочим.
+							</p>
+							<p>
+								Разработаное нами оборудование может быть подключено к общезаводской сети предприятия и быть интегрировано в MES и ERP системы.
+							</p>
+							<p>
+								По требованию заказчика в алгоритмы работы ПЛК могут быть предусмотрены функции контроля наработки узлов и механизмов, что позволит 
+								планировать планово-предупредительные ремонты.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!--РАЗРАБОТКА СИСТЕМ ВИЗУАЛИЗАЦИИ-->
+				<div class="examples-div p-3 bd-gray-100">
+					<h4 class="block_title"><b>Разработка систем визуализации</b></h4>
+	  
+					<div class="row p-0">
+	  
+						<div class="col-12">
+							<p>
+								Мы имеем богатый опыт внедрения систем визуализации технологического процесса.
+								Мы ведем разработку систем визуализации в виде полноценных SCADA систем, либо 
+								на основе панелей визуализации. По заказу клиента мы можем внедрить систему визуализации, построенную на 
+								стеке Web технологий. 
+							</p>
+							<p>
+								Системы визуализации разрабатываем приемущественно на основе следующих средств: WinCC 7.x, MasterSCADA,
+								SimpleSCADA, Weintek.
+							</p>		
+							<p>
+								В тех случаях, когда применение стандартных SCADA систем не обеспечит выполнение всех требований,
+								предъявляемых заказчиком мы можем разработать специализированную систему визуализации, построенную
+								на технологиях Qt, либо .Net Core.
+
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!--МОДЕРНИЗАЦИЯ СИСТЕМ УПРАВЛЕНИЯ-->
+				<div class="examples-div p-3 bd-gray-100" id="modernDiv">
+					<h4 class="block_title">Модернизация систем управления</h4>
+	  
+					<div class="row p-0">
+	  
+						<div class="col-12">
+							<p>
+								Мы готовы принять участие в модернизации морально устаревших систем управления. Так же мы готовы 
+								произвести замену узлов и элементов, которые из-за антироссийских санкций поставить не возможно 
+								либо затруднительно.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!--РАЗРАБОТКА СИСТЕМ СБОРА ДАННЫХ-->
+				<div class="examples-div p-3 bd-gray-100" id="daqDiv">
+					<h4 class="block_title">Разработка систем сбора данных</h4>
+	  
+					<div class="row p-0">
+	  
+						<div class="col-12">
+							<p>
+								Мы имеем опыт внедрения собственного программного обеспечения, позволяющего 
+								собирать данные о значениях процесса с устройств по промышленным интерфейсам связи. Данные системы
+								предназначены для сбора и архивации данных быстроменяющегося процесса с частотой дескретизации до 100Sa/s.
+								Опционально контролируемые данные могут быть транслированы в клиенты по технологии OPC UA.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!--РАЗРАБОТКА СИСТЕМ ДИСПЕТЧЕРИЗАЦИИ-->
+				<div class="examples-div p-3 bd-gray-100" id="dsp">
+					<h4 class="block_title">Разработка систем диспетчерезации, АСТУЭ, АСКУЭ</h4>
+
+					<div class="row p-0">
+
+						<div class="col-12">
+							<p>
+								Наши компетенции позволяют нам внедрять системы, автоматизированного централизованного оперативного контроля
+								технологическими процессами в зданиях, на энергетических, промышленных и других предприятиях.
+							</p>
+							<p>
+								Помимо этого мы разрабатываем и внедряем системы автомтизированного технического и комерческого учета электроэнергии.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<!--РЕМОНТ И СЕРВИС АСУТА, ЧПУ, ...-->
+				<div class="examples-div p-3 bd-gray-100" id="dsp">
+					<h4 class="block_title">Ремонт и сервисное обслуживание АСУТП, электроники и ЧПУ</h4>
+
+					<div class="row p-0">
+
+						<div class="col-12">
+							<p>
+								Мы имеем компетенции и квалификацию для сервисного обслуживания и аварийного ремонта промышленной
+								электроники, автоматики, в том числе cистем с ЧПУ на стойке Sinumerik.
+								Для ремонта готовы выехать на производственнную площадку заказчика в пределах агломирации "Большой Челябинск"
+							</p>
+						</div>
+					</div>
+				</div>
+				
 				<!--<div id="contacts-form">
 					<div class="conteiner p-3">
 						<h4>ОСТАВЬТЕ ЗАЯВКУ</h4>

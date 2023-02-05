@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+
+
+
 html, body 
 {
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: Montserrat;
+	font-family: Montserrat, sans-serif;
 	background-color: lightgray;
+	
  }
 
+ p
+ {
+	font-family: Montserrat, sans-serif;
+	text-align: justify;
+	color: black;
+	font-weight: 200;
+	text-indent: 3em;
+ }
+
+ /* ЗАГОЛОВОЧНАЯ ПАНЕЛЬ */
 .mybg
 {
 	width: 100%;
@@ -15,45 +31,44 @@ html, body
 	background-image: url('../img/sim.png');
 }
 
-.dark_font
-{
-	color: black;
-	opacity: 100%;
-}
 
-div.second h1
+/* ЗАГОЛОЛВК БЛОКА */
+.block_title
 {
-	opacity: 90%;
-	
-}
-
-img 
-{
-	max-width: 100%;
-	height: auto;
-	margin: 10px;
-}
-
-.img_exemp
-{
-	height: 300px;
-	margin: auto;
-}
-
-  h4
-  {
     display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	font-family: HeliosCond-Bold;
+	margin-top: 20px;
+	font-size: 16.9px;
+	font-weight: 900;
+	text-indent: 3em;
+}
+
+.service_scard-text
+{
+	display: block;
+	font-size: 20px;
+	color:white;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.service_scard-text:hover
+{
+	font-size: 22px;
+	color:rgb(234, 234, 234);
 	font-weight: bold;
 }
 
 h5
 {
 	margin-left: 30px;
+}
+
+.smal-text
+{
+	font-size: 0.9em;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-info h4, i
@@ -145,6 +160,8 @@ h5
   {
 	padding: 30px;
 	margin-top: 0;
+	background-color: #edeef0;
+	margin-bottom: 10px;
   }
 
   .st-card
@@ -153,6 +170,7 @@ h5
 	margin-bottom: 10px;
 	padding: 10px;
 	border-radius: 5px;
+	font-family: 'Montserrat', Arial, sans-serif;
   }
 
   .st-card:hover
@@ -183,7 +201,7 @@ h5
 	border: 0px solid rgb(202, 10, 10);
 	height: 180px;
 	margin: 0px 10px 10px 10px;
-	font-family: "Montserrat,sans-serif";
+	font-family: 'Montserrat', sans-serif;
 	vertical-align: middle;
 
   }
