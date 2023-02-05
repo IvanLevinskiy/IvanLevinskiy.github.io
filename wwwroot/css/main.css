@@ -78,6 +78,7 @@ h5
 {
 	padding-top: 100px;
 	height: 300px;
+	border-radius: 20px;
 }
 
 
@@ -148,9 +149,14 @@ h5
 
   .st-card
   {
-	border: 1px solid gray;
-	background-color: rgb(238, 238, 238);
+	background-color: #f3f4f6;
 	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+  }
+
+  .st-card:hover
+  {
 	padding: 10px;
   }
 
@@ -169,7 +175,7 @@ h5
 	padding-top: 20px;
 	margin: auto;
 	display: block;
-	border: 1px solid red;
+	border: 0px solid red;
   }
 
   .card-title
@@ -251,7 +257,34 @@ h5
 }
 
 
+.btn.btn-default:hover, .btn.btn-default:active, .btn.btn-default:focus 
+{
+    background-color: #5073e1;
+    border-color: #5073e1;
+}
 
+.btn.btn-default 
+{
+    background-color: #365edc;
+    border-color: #365edc;
+    color: #ffffff;
+}
 
-
+.btn {
+    font-size: 0.7333em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px;
+    border: 1px solid;
+    letter-spacing: 0.8px;
+    border-radius: 3px;
+    padding: 12px 21px 11px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+}
 
