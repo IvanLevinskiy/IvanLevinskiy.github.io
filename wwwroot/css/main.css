@@ -11,6 +11,7 @@ html, body
 	padding: 0;
 	font-family: Montserrat, sans-serif;
 	background-color: lightgray;
+	color: #364364;
 	
  }
 
@@ -91,7 +92,7 @@ h5
 
 .card
 {
-	padding-top: 100px;
+	padding-top: 120px;
 	height: 300px;
 	border-radius: 20px;
 }
@@ -160,7 +161,7 @@ h5
   {
 	padding: 30px;
 	margin-top: 0;
-	background-color: #edeef0;
+	background-color: #f2f4f9;
 	margin-bottom: 10px;
   }
 
